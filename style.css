@@ -1,0 +1,41 @@
+#body{
+    background-color: coral;
+}
+
+.container{
+    height: 500px;
+    width: 500px;
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.smallContainer {
+    background-color: white;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 10px black;
+    cursor: pointer;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: x-large;
+}
+
+.answerButn{
+    height: 40px;
+    background-color: cornflowerblue;
+    color: cornsilk;
+    box-shadow: inset 0 0 10px black;
+
+}
+
+.inputField{
+    height: 30px;
+    width: 400px;
+    margin-left: 10px;
+}
